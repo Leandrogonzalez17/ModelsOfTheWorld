@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+/* estilos generales */
+body{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Rowdies', cursive;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(64, 86, 119);
+}
+
+header{
+    display: flex;
+    min-height: 120px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 140px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-size: 13px;
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+nav a:hover{
+    color: rgb(185, 80, 206);
+}
+
+.buscar {
+    padding-top: 10px;
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .BotonColor {
+    width: 250px;
+    border: 2px solid #3b4f7a;
+    border-right: none;
+    padding: 5px;
+    min-height: 30px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .BotonColor:focus{
+    color: #546da3;
+  }
+  
+  .botonBuscar {
+    width: 40px;
+    height: 31px;
+    border: 1px solid #3b4f7a;
+    background: #3b4f7a;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    position: absolute;
+    padding-bottom: 60px;
+    padding-left: 350px;
+    transform: translate(-50%, -50%);
+  }
+  
+  nav ul{
+    background-color: #cbdde2;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    padding-top: 5px;
+    height: 50px;
+    gap: 5px;
+}
+
+.redes img{
+   height: 38px;
+}
+
+@media (max-width:480px){
+    body{
+        
+    }
+    
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 5px 0px;
+    }
+
+    .BotonColor{
+        width: 180px;
+    }
+
+    .botonBuscar{
+        width: 40px;
+    }
+
+    .wrap{
+        padding-bottom: 70px;
+        padding-left: 240px;
+    }
+
+    
+}

@@ -14,7 +14,7 @@ body{
 
 .nav-link{
     text-decoration: none;
-    color: rgb(64, 86, 119);
+    color: rgb(71, 14, 78);
 }
 
 .header1{
@@ -56,7 +56,7 @@ body{
   
   .BotonColor {
     width: 250px;
-    border: 2px solid #3b4f7a;
+    border: 2px solid #5786e6;
     border-right: none;
     padding: 1px;
     min-height: 30px;
@@ -72,8 +72,8 @@ body{
   .botonBuscar {
     width: 40px;
     height: 31px;
-    border: 1px solid #3b4f7a;
-    background: #3b4f7a;
+    border: 1px solid #5786e6;
+    background: #5d8ef0;
     text-align: center;
     color: #fff;
     border-radius: 0 5px 5px 0;
@@ -90,7 +90,7 @@ body{
   }
   
   nav ul{
-    background-color: #cbdde2;
+    background-color: #a2caff;
     display: flex;
     justify-content: right;
     list-style: none;
@@ -101,6 +101,33 @@ body{
 
 .redes img{
    height: 38px;
+}
+
+.carousel{
+    display: block;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1{
+    background-color: #3670a0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    padding: 20px 10px;
+    border: rgb(160, 212, 255) 5px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #ffffff;
+    
 }
 
 @media (max-width:480px){
@@ -128,6 +155,7 @@ body{
         padding-bottom: 90px;
         padding-left: 240px;
     }
+    
 
     
 }

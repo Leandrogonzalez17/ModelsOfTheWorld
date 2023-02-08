@@ -166,8 +166,130 @@ overflow: hidden;
 padding: 20px;
 }
 
-/* mq mobile */
+.cuadro2{
+display: flex;
+display: block;
+flex-direction: row;
+justify-content: space-between;
+background-color: rgb(255, 255, 255);
+align-items: center;
+padding: 20px;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: 400;
+color: #ffffff;
+background: #3a4b77;
+margin: 0 0 25px;
+overflow: hidden;
+padding: 20px;
+}
 
+
+.fondo-con-imagen {
+    background-image: url(/img/foto.jpg);
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fondo-con-imagen h2{
+    color: #dde4fa;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(233, 213, 213);
+    margin:170px 10px auto;
+    text-align: center;
+  }
+
+  
+  
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    background-color: #c9d7f3;
+  }
+  .contenedor img{
+    height: 100px;
+  }
+  
+  .grid-item {
+    width: 100%;
+  }
+
+.portada img{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+  
+.traje{
+    display: flex;
+    width: 100%;
+    
+    
+}
+.traje img{
+    display: flex;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 750px;
+}
+.traje div{
+    padding-top: 10px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: right;
+    height: 90%;
+    line-height: 1.4;
+    
+}
+
+.contenedor2{
+    background-image: url(/img/traje6.jpg);
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cuadro3{
+display: flex;
+display: block;
+flex-direction: row;
+justify-content: space-between;
+background-color: rgb(255, 255, 255);
+align-items: center;
+padding: 20px;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: 400;
+color: #ffffff;
+background: #502747;
+margin: 0 0 25px;
+overflow: hidden;
+padding: 20px;
+line-height: 1.3;
+margin-bottom: 200px;
+}
+.cuadro3 h2{
+    text-align: center;
+}
+
+.cuadro3 p{
+    text-align: center;
+}
+
+
+
+ 
+  /* mq moblie */
 @media (max-width:480px){
     header{
         flex-direction: column;
@@ -225,7 +347,56 @@ padding: 20px;
         opacity: 90%;
         transition: 0.8s;
     }
+
+    .fondo-con-imagen{
+        height: 20vh;
+    }
+
+    .fondo-con-imagen h2{
+    
+        color: #dde4fa;
+        display: flex;
+        justify-content: center;
+        border: 2px solid rgb(233, 213, 213);
+        margin:20px 10px auto;
+        text-align: center;
+        line-height: 20px;
+       
+      }
+    
+
+    .text{
+        display: flex;
+        justify-content: center;
+    }
+
      
+    .foto{
+        display: flex;
+        width: 100%;
+        
+        
+    }
+    .foto img{
+        display: flex;
+        width: 200px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 350px;
+    }
+    .foto div{
+        padding-top: 10px;
+        width: 50%;
+        margin: 0 auto;
+        text-align: right;
+        height: 90%;
+        line-height: 1.0;
+        
+    }
+
+    
+
+
 }
 
 /* mq desktop */
@@ -281,10 +452,65 @@ padding: 20px;
 
 }
 
-.modelo3:hover{
+.accesorio:hover{
     transform: scale(0.9);
     opacity: 40%;
     transition: 0.9s;
     transition-delay: 0.2s;
 }
+
+.cuadro2{
+    display: flex;
+}
+
+main{
+    grid-template-columns:repeat(2,1fr) ;
+    grid-template-rows: repeat(2,50%);
+
+    
+}
+
+
+.background-image{
+    height: 52vh;
+}
+
+.background-image h2{
+    display: flex;
+    justify-content: center;
+    margin: 170px 0px auto;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+ 
+.foto{
+    display: flex;
+    width: 100%;
+    
+    
+}
+.foto img{
+    display: flex;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 750px;
+}
+.foto div{
+    padding-top: 10px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: right;
+    height: 90%;
+    line-height: 1.4;
+    
+}
+
+
  }

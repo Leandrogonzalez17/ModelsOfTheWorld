@@ -286,6 +286,52 @@ margin-bottom: 200px;
     text-align: center;
 }
 
+.contendor3{
+    display: block;
+    display: flex;
+    margin-left: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.contendor3 .info{
+    width: 100%;
+    height: 100%;
+    background-color: #eaeaf3;
+    margin-left: 110px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 90px;
+    color: #394152;
+    
+}
+
+.contendor3 h2{
+    background-color: rgb(40, 32, 53);
+    color: #c9d7f3;
+}
+
+.imagen-superpuesta img{
+   height: 260px;
+   position: absolute;
+}
+
+.imagen-superpuesta2 img{
+    height: 300px;
+    margin-top: 170px;
+    margin-left: 80px;
+    position: relative;
+}
+
+.info2{
+    background-color: #394152;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    color: #cbd6ee;
+}
 
 
  

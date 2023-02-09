@@ -154,7 +154,7 @@ main div img{
     height: 100%;
     object-fit: cover;
 }
-
+/* cuadro de texto */
 .cuadro{
 font-family: sans-serif;
 font-size: 18px;
@@ -166,6 +166,7 @@ overflow: hidden;
 padding: 20px;
 }
 
+/* fin de Inicio */
 .cuadro2{
 display: flex;
 display: block;
@@ -185,6 +186,10 @@ padding: 20px;
 }
 
 
+/* ///Pag Modelos// */
+
+
+/* portada con titulo */
 .fondo-con-imagen {
     background-image: url(/img/foto.jpg);
     background-size: cover;
@@ -204,7 +209,7 @@ padding: 20px;
   }
 
   
-  
+  /* sistema de grillas */
   .contenedor {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
@@ -220,12 +225,19 @@ padding: 20px;
     width: 100%;
   }
 
+
+  /* ///Pag Trajes */
+
+
+  /* portada con titulo */
 .portada img{
     display: flex;
     flex-direction: row;
     width: 100%;
 }
   
+
+/* Imagen de traje + info */
 .traje{
     display: flex;
     width: 100%;
@@ -259,6 +271,7 @@ padding: 20px;
 
 }
 
+/* cuadro contenido */
 .cuadro3{
 display: flex;
 display: block;
@@ -286,6 +299,9 @@ margin-bottom: 200px;
     text-align: center;
 }
 
+
+
+/* imagenes superpuestas + info */
 .contendor3{
     display: block;
     display: flex;
@@ -332,6 +348,10 @@ margin-bottom: 200px;
     margin-top: 40px;
 }
 
+
+/* Pag Salon de la fama */
+
+/* info principal */
 .info3{
     text-align: center;
     padding-top: 20px;
@@ -341,7 +361,7 @@ margin-bottom: 200px;
 }
 
 
-
+/* famosas + info */
 .famosas{
     background-color: #ddd7bb;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
@@ -394,6 +414,8 @@ margin-bottom: 200px;
     color: #502747;
 }
 
+
+/* estilos de cards */
 .contenedor6{
     width: 100%;
     display: flex;
